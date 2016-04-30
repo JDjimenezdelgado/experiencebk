@@ -1,0 +1,4 @@
+[15-Sep-2015 16:54:04] PHP Fatal error:  Call to undefined function  get_header() in /home2/wetrusti/public_html/mmexperiencecr/wp-content/themes/stockholm/index.php on line 1
+[16-Sep-2015 00:21:21] PHP Fatal error:  Call to undefined function  get_header() in /home2/wetrusti/public_html/mmexperiencecr/wp-content/themes/stockholm/index.php on line 1
+[16-Sep-2015 06:16:20] PHP Fatal error:  Call to undefined function  get_header() in /home2/wetrusti/public_html/mmexperiencecr/wp-content/themes/stockholm/index.php on line 1
+[16-Sep-2015 12:26:20] PHP Fatal error:  Call to undefined function  get_header() in /home2/wetrusti/public_html/mmexperiencecr/wp-content/themes/stockholm/index.php on line 1

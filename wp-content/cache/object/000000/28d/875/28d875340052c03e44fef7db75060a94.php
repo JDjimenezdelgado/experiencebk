@@ -1,0 +1,1 @@
+>%W<?php exit; ?>a:1:{s:7:"content";a:4:{s:26:"woocommerce_status_options";b:1;s:22:"woocommerce_permalinks";b:1;s:24:"vc_automapped_shortcodes";b:1;s:27:"woocommerce_lock_down_admin";b:1;}}

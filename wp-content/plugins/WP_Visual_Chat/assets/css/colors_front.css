@@ -1,0 +1,51 @@
+
+        .vcht_selectedDom {
+            -moz-box-shadow: 0px 0px 40px 0px #e6a159 !important;
+            -webkit-box-shadow: 0px 0px 40px 0px #e6a159 !important;
+            -o-box-shadow: 0px 0px 40px 0px #e6a159 !important ;
+            box-shadow: 0px 0px 40px 0px #e6a159 !important ;
+        }
+        @-o-keyframes glow {
+            0% {
+                -o-box-shadow: 0px 0px 10px 0px #e6a159;
+            }
+            50% {
+                -o-box-shadow: 0px 0px 40px 0px #e6a159;        
+            }
+            100% {
+                -o-box-shadow: 0px 0px 10px 0px #e6a159;
+            }
+        }
+        @-moz-keyframes glow {
+            0% {
+                -moz-box-shadow: 0px 0px 10px 0px #e6a159;
+            }
+            50% {
+                -moz-box-shadow: 0px 0px 40px 0px #e6a159;        
+            }
+            100% {
+                -moz-box-shadow: 0px 0px 10px 0px #e6a159;
+            }
+        }
+        @-webkit-keyframes glow {
+            0% {
+                -webkit-box-shadow: 0px 0px 10px 0px #e6a159;
+            }
+            50% {
+                -webkit-box-shadow: 0px 0px 40px 0px #e6a159;        
+            }
+            100% {
+                -webkit-box-shadow: 0px 0px 10px 0px #e6a159;
+            }
+        }
+        @keyframes glow {
+            0% {
+                box-shadow: 0px 0px 10px 0px #e6a159 ;
+            }
+            50% {
+                box-shadow: 0px 0px 40px 0px #e6a159 ;        
+            }
+            100% {
+                box-shadow: 0px 0px 10px 0px #e6a159 ;
+            }
+        }

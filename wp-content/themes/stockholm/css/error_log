@@ -1,0 +1,1 @@
+[27-Mar-2015 07:13:54 UTC] PHP Warning:  getimagesize(/home2/wetrusti/public_html/mmexperiencecr/stockholm19/wp-content/uploads/2014/10/logo1.png): failed to open stream: No such file or directory in /home2/wetrusti/public_html/mmexperiencecr/wp-content/themes/stockholm/css/style_dynamic.php on line 861

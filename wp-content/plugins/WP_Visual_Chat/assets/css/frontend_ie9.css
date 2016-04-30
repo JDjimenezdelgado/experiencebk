@@ -1,0 +1,14 @@
+#vcht_chatframe {
+    width: 290px !important;
+    max-width: 290px !important;
+    height: 45px;
+    position: fixed;
+    bottom: 0px;
+    right: 48px;
+    z-index: 99999999;
+}
+#vcht_chatframe.vcht_open {
+    height: 430px;    
+    width: 290px !important;
+    max-width: 290px !important;
+}

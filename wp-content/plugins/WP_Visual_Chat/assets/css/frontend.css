@@ -1,0 +1,251 @@
+#vcht_chatframe {
+    display: block !important;
+    width: 290px !important;
+    max-width: 290px !important;
+    border: 0px;
+    height: 45px;
+	min-height: 45px;
+    position: fixed;
+    bottom: 0px;
+    right: 48px;
+    z-index: 99999999;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.1);
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    -webkit-transition: height 0.55s ease-in-out;
+    -moz-transition: height 0.55s ease-in-out;
+    -o-transition: height 0.55s ease-in-out;
+    transition: height 0.55s ease-in-out;
+}
+#vcht_chatframe.vcht_mob {
+    width: 100%  !important;
+    max-width: 100% !important;
+    left: 0px !important;
+    right: 0px !important;
+    position: fixed;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    bottom: 0px;
+}
+#vcht_chatframe.vcht_android {
+    position: relative;
+}
+#vcht_chatframe.vcht_mob.vcht_open{
+    height: 100% !important;
+    border-radius: 0px !important;    
+    width: 100% !important;
+    max-width: 100% !important;    
+    position: fixed;
+}
+#vcht_chatframe.vcht_mob.vcht_open.vcht_iPhone{
+    padding-top: 48px;
+}
+#vcht_chatframe:not(.vcht_open).vcht_mob {
+  /*  margin-bottom: -6px;*/
+}
+#vcht_chatframe.vcht_left {
+    right: auto;
+    left: 48px;
+
+}
+#vcht_chatframe.vcht_bounce:not(.vcht_open) {    
+    -webkit-animation: bounceChat 1500ms infinite ;
+    -moz-animation: bounceChat 1500ms infinite ;
+    -o-animation: bounceChat 1500ms infinite ;
+    animation: bounceChat 1500ms infinite ; 
+}
+#vcht_chatframe.vcht_open {
+    height: 430px;    
+    width: 290px !important;
+    max-width: 290px !important;
+}
+.vcht_selectedDom {
+    -moz-box-shadow: 0px 0px 40px 0px #1abc9c ;
+    -webkit-box-shadow: 0px 0px 40px 0px #1abc9c ;
+    -o-box-shadow: 0px 0px 40px 0px #1abc9c ;
+    box-shadow: 0px 0px 40px 0px #1abc9c ;
+    -webkit-animation: glow 1500ms infinite ;
+    -moz-animation: glow 1500ms infinite ;
+    -o-animation: glow 1500ms infinite ;
+    animation: glow 1500ms infinite ;    
+}
+.vcht_avatarSel {
+    display: block;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    margin-left: -25px;
+    border-radius: 24px;
+    background-color: #ECF0F1;
+    border: 3px solid #ECF0F1;    
+    background-image: url('../images/administrator-48.png');
+    background-size: cover;
+    margin-top: 0px;
+    -webkit-animation: bounce 1500ms infinite ;
+    -moz-animation: bounce 1500ms infinite ;
+    -o-animation: bounce 1500ms infinite ;
+    animation: bounce 1500ms infinite ; 
+    -webkit-transition: all 0.55s ease-in-out;
+    -moz-transition: all 0.55s ease-in-out;
+    -o-transition: all 0.55s ease-in-out;
+    transition: all 0.55s ease-in-out; 
+}
+.vcht_avatarSel > img {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;    
+}
+.vcht_avatarSel > .vcht_avatarArrow {
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 14px;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ECF0F1; 
+}
+.vcht_avatarSel.bottom > .vcht_avatarArrow {
+    position: absolute;
+    margin-top: -12px;
+    border-top: transparent;
+    border-bottom: 10px solid #ECF0F1; 
+}
+
+@-o-keyframes glow {
+    0% {
+        -o-box-shadow: 0px 0px 10px 0px #1abc9c;
+    }
+    50% {
+        -o-box-shadow: 0px 0px 40px 0px #1abc9c;        
+    }
+    100% {
+        -o-box-shadow: 0px 0px 10px 0px #1abc9c;
+    }
+}
+@-moz-keyframes glow {
+    0% {
+        -moz-box-shadow: 0px 0px 10px 0px #1abc9c;
+    }
+    50% {
+        -moz-box-shadow: 0px 0px 40px 0px #1abc9c;        
+    }
+    100% {
+        -moz-box-shadow: 0px 0px 10px 0px #1abc9c;
+    }
+}
+@-webkit-keyframes glow {
+    0% {
+        -webkit-box-shadow: 0px 0px 10px 0px #1abc9c;
+    }
+    50% {
+        -webkit-box-shadow: 0px 0px 40px 0px #1abc9c;        
+    }
+    100% {
+        -webkit-box-shadow: 0px 0px 10px 0px #1abc9c;
+    }
+}
+@keyframes glow {
+    0% {
+        box-shadow: 0px 0px 10px 0px #1abc9c ;
+    }
+    50% {
+        box-shadow: 0px 0px 40px 0px #1abc9c ;        
+    }
+    100% {
+        box-shadow: 0px 0px 10px 0px #1abc9c ;
+    }
+}
+
+
+@-webkit-keyframes bounce {
+    0% {
+        margin-top: 0px;
+    }
+    50% {
+        margin-top: -40px;  
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+@keyframes bounce {
+    0% {
+        margin-top: 0px;
+    }
+    50% {
+        margin-top: -40px;  
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+
+
+@-o-keyframes bounceChat {
+    0% {
+        height: 45px;
+    }
+    30% {
+        height: 34px;  
+    }
+    60% {
+        height: 45px;
+    }
+}
+@-moz-keyframes bounceChat {
+    0% {
+        height: 45px;
+    }
+    30% {
+        height: 34px;  
+    }
+    60% {
+        height: 45px;
+    }
+}
+@-webkit-keyframes bounceChat {
+    0% {
+        height: 45px;
+    }
+    30% {
+        height: 34px;  
+    }
+    60% {
+        height: 45px;
+    }
+}
+@keyframes bounceChat {
+    0% {
+        height: 45px;
+    }
+    30% {
+        height: 34px;  
+    }
+    60% {
+        height: 45px;
+    }
+}
+
+@media (max-width: 410px) {
+    #vcht_chatframe {
+        width: 100% !important;
+        left: 0px !important;
+        right: 0px !important;
+        max-width: 100% !important;
+    }
+    #vcht_chatframe.vcht_open{
+        height: 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        border-radius: 0px   !important;      
+    }
+}
+

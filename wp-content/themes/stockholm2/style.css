@@ -1,0 +1,35 @@
+/*
+Description: Experience CR theme
+Author URI: www.experiece.cr
+Version: 1.7
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+.woocommerce ul.products li.product .add-to-cart-button-outer{
+display: none !important;
+}
+.woocommerce ul.products li.product:hover .image-wrapper img{
+opacity: .6 !important;
+}
+.summary.entry-summary form.cart{
+display: none !important;
+}
+.q_tabs.boxed.woocommerce-tabs li.active a, iframe #chatHeader{
+    background-color: #e6a159 !important;
+}
+#tab-description{
+ font-size: 15px !important;
+ font-weight: none !important;
+}
+.two_columns_25_75>.column2{
+      width: 100%  !important;
+}
+.product-category.product mark{
+	display:none;
+}
+.latest_post_holder .boxes_image a .latest_post_overlay{
+    background-color: transparent !important;
+}

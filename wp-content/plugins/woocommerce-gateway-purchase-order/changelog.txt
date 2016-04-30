@@ -1,0 +1,4 @@
+** WooCommerce Gateway Purchase Order Changelog **
+
+2014.08.14 - version 1.0.0
+ * New - First release!
